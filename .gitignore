@@ -1,4 +1,7 @@
-test/javasource/
+test/javasource/*
+!test/javasource/googlemaps/
+!test/javasource/googlemaps/actions/*.java
+test/javasource/googlemaps/proxies
 test/deployment/
 test/.classpath
 test/.project
