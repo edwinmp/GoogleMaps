@@ -11,8 +11,10 @@ This widget lets you set and show all your locations within Google Maps.
 One of the most important things to keep in mind when implementing this widget is the Google Maps terms of use. These can be found here: [Terms of Use](https://developers.google.com/maps/terms). Chapter 9.1 is especially important.
 
 > Free, Public Accessibility to Your Maps API Implementation. Your Maps API Implementation must be generally accessible to users without charge. You may require users to log in to your Maps API Implementation if you do not require users to pay a fee. Unless you have entered into a separate written agreement with Google or obtained Google's written permission, your Maps API Implementation must not:
-(a) require a fee-based subscription or other fee-based restricted access; or
-(b) operate only behind a firewall or only on an internal network (except during the development and testing phase).
+>
+>(a) require a fee-based subscription or other fee-based restricted access; or
+>
+>(b) operate only behind a firewall or only on an internal network (except during the development and testing phase).
 
 There are 3 use-cases for which this widget can be used.
 
