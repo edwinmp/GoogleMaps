@@ -1,18 +1,3 @@
-/**
-	Google Maps Overview Widget
-	========================
-
-	@file      : googlemapsoverview.js
-	@version   : 1.2.2
-	@author    : Robert van 't Hof
-	@date      : 17-11-2010
-	@copyright : Mendix
-
-	Documentation
-	=============
-	This widget lets you plot a list of addressess on a Google Map and marks them with markers.
-
-*/
 dojo.provide("GoogleMaps.GoogleMapsOverview.googlemapsoverview");
 
 mxui.widget.declare("GoogleMaps.GoogleMapsOverview.googlemapsoverview", {
@@ -122,7 +107,7 @@ mxui.widget.declare("GoogleMaps.GoogleMapsOverview.googlemapsoverview", {
 					if (this.markers.length > 0)
 						this.gotoMarker(context.getActiveGUID());
 					else
-						this.getListObjects(0, dojo.hitch(this, this.gotoMarker, context.getActiveGUID()));
+						this.getListObjects(context.getActiveGUID(), dojo.hitch(this, this.gotoMarker, context.getActiveGUID()));
 				else
 					this.getListObjects();
 			}
