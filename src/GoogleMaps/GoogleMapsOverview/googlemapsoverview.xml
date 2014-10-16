@@ -57,7 +57,7 @@
             <category>Appearance</category>
             <description>The map's height in px.</description> 
         </property>
-        <property key="mapWidth" type="string">
+        <property key="mapWidth" type="string" defaultValue="350">
             <caption>Width</caption>
             <category>Appearance</category>
             <description>The map's width in px or percent.</description> 
