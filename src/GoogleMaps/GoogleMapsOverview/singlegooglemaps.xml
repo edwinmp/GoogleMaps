@@ -72,5 +72,10 @@
                 <attributeType name="Float"/>
             </attributeTypes>
         </property>
+        <property key="defaultIcon" type="image" required="false">
+            <caption>Marker icon</caption>
+            <category>Appearance</category>
+            <description>The image to use for the marker.</description>
+        </property>
     </properties>
 </widget>
