@@ -1,6 +1,6 @@
 dojo.provide("GoogleMaps.GoogleMapsOverview.singlegooglemaps");
 
-dojo.declare("GoogleMaps.GoogleMapsOverview.singlegooglemaps", [mxui.widget._WidgetBase], {
+dojo.declare("GoogleMaps.GoogleMapsOverview.singlegooglemaps", mxui.widget._WidgetBase, {
 
 	_hasStarted : false,
 	googleMap : null,
